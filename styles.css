@@ -1,0 +1,30 @@
+html{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sams-serif;
+  color: var(--dark);
+}
+
+.navigation ul{
+  display: grid;
+  grid-gap: 20px;
+  list-style: none;
+  padding: 0;
+  grid-template-columns: repeat(4, 1fr);
+}
+.navigation a{
+  background-color: gray;
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  box-shadow: #333;
+}
+.customer{
+  display: grid;
+  background-color: gray;
+  
+
+}
